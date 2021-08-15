@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(background3.png);     /*background image load*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  bacground:  opacity: 0.5;
+  background-attachment: scroll;
+  font-family: sans-serif;
+
+}
+
+.loginbox
+{
+  width: 320px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  top:50%;                                     /*black login window*/
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;                   /*front change for p*/
+  font-weight: bold;
+}
+.loginbox input{
+  width: 100%;                  /*making the inputbox full wide*/
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 7%;
+
+}
+
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.loginbox a:hover
+{
+  color: #ffc107;
+}
+
+ h2{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox input[type="checkbox"]
+{
+         width: 15px;
+         height: 20px;
+         padding: 0;
+         margin: 0;
+         vertical-align: bottom;
+         position: relative;
+         top: -1px;
+}
+
+.loginbox label
+{
+      bottom: 50px;
+
+}
+.error
+{
+  color: red;
+  font-size: 13px;
+  margin-left: 100px;
+  font-style: italic ;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

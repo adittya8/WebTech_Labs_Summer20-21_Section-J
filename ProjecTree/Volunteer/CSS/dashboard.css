@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(background3.png);
+
+  background-size: cover;
+  /* background-position: center; */
+  font-family: sans-serif;
+}
+
+/* Side navigation links */
+.sidenav a {
+
+ height: 20% ;
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0.8);
+padding: 40px;
+background-repeat: no-repeat;
+text-decoration: none;
+display: block;
+font-size: 18px;
+font-style: italic;
+  color: white;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/* Change color on hover */
+/* .sidenav a:hover {
+background-color: #6495ED;
+color: white;
+} */
