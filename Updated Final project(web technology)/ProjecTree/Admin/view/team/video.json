@@ -1,0 +1,27 @@
+[  
+      {  
+           "Picture":"img/tamzid.jpg",
+           "ID":"18-37134-1",
+           "NAME":"MD. TAMZIDUL ALAM",
+           "EMAIL":"tamjidalam00@gmail.com"
+      },  
+      
+      {  
+          "Picture":"img/adittya.jpg",
+           "ID":"18-38693-3",
+           "NAME":"ADITTYA CHAKRABORTY",
+           "EMAIL":"arup2140@gmail.com"
+      },  
+      {  
+          "Picture":"img/nayeem.jpg",
+           "ID":"18-36988-1",
+           "NAME":"NAYEEM HAQUE",
+           "EMAIL":"nayeemhaque43@gmail.com"
+      },  
+      {  
+          "Picture":"img/shahriar.jpg",
+           "ID":"18-38023-2",
+           "NAME":"SHAHRIAR MAHMUD",
+           "EMAIL":"mahmudpolash70@gmail.com"
+      }
+ ]  

@@ -1,0 +1,56 @@
+body{
+  font-family: sans-serif;
+  background: #34495e;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+   .container{
+    width: 50%;
+  }
+  .img{
+    width: 50%;
+  }
+  .fieldset{
+    margin-left: left;
+  }
+  .card-body{
+    width: 10%;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+   .container{
+    width: 50%;
+  }
+  .img{
+    width: 50%;
+  }
+  .fieldset{
+    margin-left: left;
+  }
+  .card-body{
+    width: 10%;
+  }
+}
+@media only screen and (min-width: 350px){
+  .container{
+    width: 20%;
+  }
+  .img{
+    width: 20%;
+  }
+  .fieldset{
+    margin-left: left;
+  }
+  .card-body{
+    width: 10%;
+  }
+}
